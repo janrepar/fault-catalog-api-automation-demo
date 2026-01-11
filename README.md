@@ -17,7 +17,6 @@ The main goals of this project are to:
 - Demonstrate DevOps and GitOps-oriented workflows
 - Reflect enterprise-grade operational and documentation standards
 
----
 
 ## High-Level Architecture
 
@@ -28,7 +27,6 @@ The main goals of this project are to:
 - **Configuration:** Environment-based configuration
 - **CI/CD:** Git-based workflows (planned)
 
----
 
 ## DevOps & Automation Focus
 
@@ -42,7 +40,6 @@ This project is intentionally structured to reflect real-world DevOps practices:
   - GitOps workflows for deployment lifecycle management
 - Emphasis on repeatability, documentation, and operational transparency
 
----
 
 ## Infrastructure Automation (In Progress)
 
@@ -62,7 +59,6 @@ The following components are currently being implemented or planned:
 These additions are designed to mirror automation and reliability practices used
 in enterprise consulting and SRE teams.
 
----
 
 ## Cost & Operational Considerations
 
@@ -72,7 +68,6 @@ The service is designed with operational efficiency in mind:
 - Resource-aware container configuration
 - Deployment model aligned with cost optimization and FinOps principles
 
----
 
 ## Tech Stack
 
@@ -82,7 +77,6 @@ The service is designed with operational efficiency in mind:
 - **Platform:** Kubernetes / Red Hat OpenShift
 - **Version Control:** Git
 
----
 
 ## Status
 
@@ -90,6 +84,4 @@ The service is designed with operational efficiency in mind:
 - Containerization: In Progress
 - Infrastructure Automation: In progress
 - GitOps workflow: Planned
-
----
 
