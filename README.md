@@ -6,7 +6,6 @@ This project is a production-style backend service created to demonstrate
 enterprise API development, containerization, and infrastructure automation
 principles.
 
----
 
 ## Project Goals
 
