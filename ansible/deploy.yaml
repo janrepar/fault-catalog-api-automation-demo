@@ -1,0 +1,15 @@
+- name: Deploy Fault Catalog API to Kubernetes
+  hosts: local
+  gather_facts: no
+
+  tasks:
+    - name: Apply Kubernetes manifests
+      command: kubectl apply -f ../gitops/dev/fault-catalog-api/
+
+    - name: Wait for deployment rollout
+      command: kubectl rollout status deployment/fault-catalog-api -n dev
+      register: rollout_result
+
+    - name: Show rollout result
+      debug:
+        var: rollout_result.stdout

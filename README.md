@@ -21,7 +21,7 @@ The main goals of this project are to:
 
 - **Backend API:** ASP.NET Web API (.NET)
 - **Containerization:** Docker
-- **Platform:** Kubernetes / Red Hat OpenShift
+- **Platform:** Kubernetes
 - **API Style:** REST
 - **Configuration:** Environment-based configuration
 - **CI/CD:** Git-based workflows (planned)
@@ -31,21 +31,21 @@ The main goals of this project are to:
 
 This project is intentionally structured to reflect real-world DevOps practices:
 
-- Containerized application designed for OpenShift compatibility
+- Containerized application
 - Separation of application logic and configuration
 - Infrastructure-ready architecture supporting:
-  - Infrastructure-as-Code (Terraform – planned)
-  - Configuration automation (Ansible – planned)
+  - Infrastructure-as-Code (Terraform)
+  - Configuration automation (Ansible)
   - GitOps workflows for deployment lifecycle management
 - Emphasis on repeatability, documentation, and operational transparency
 
 
-## Infrastructure Automation (In Progress)
+## Infrastructure Automation
 
 The following components are currently being implemented or planned:
 
 - **Terraform**
-  - Definition of Kubernetes/OpenShift resources
+  - Definition of Kubernetes resources
   - Namespaces, deployments, services
 - **Ansible**
   - Automation of application configuration
@@ -65,7 +65,7 @@ The service is designed with operational efficiency in mind:
 
 - Stateless architecture supporting autoscaling
 - Resource-aware container configuration
-- Deployment model aligned with cost optimization and FinOps principles
+- Deployment model aligned with cost optimization
 
 
 ## Tech Stack
@@ -80,7 +80,7 @@ The service is designed with operational efficiency in mind:
 ## Status
 
 - Backend API: Completed
-- Containerization: In Progress
-- Infrastructure Automation: In progress
-- GitOps workflow: Planned
+- Containerization: Completed
+- Infrastructure Automation: Completed
+- GitOps workflow: In Progress
 
