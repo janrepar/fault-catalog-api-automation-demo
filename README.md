@@ -84,3 +84,6 @@ The service is designed with operational efficiency in mind:
 - Infrastructure Automation: Completed
 - GitOps workflow: In Progress
 
+## Fixes
+
+- Metrisc server API not available fix: [text](https://computingforgeeks.com/fix-error-metrics-api-not-available-in-kubernetes/)
