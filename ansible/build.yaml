@@ -1,0 +1,13 @@
+- name: Build Dockerfile for Fault Catalog API and push to registry
+  hosts: localhost       # required
+  gather_facts: false    # optional for local runs
+
+  tasks:
+    - name: Build Docker image
+      shell: |
+        docker build --no-cache -t ghcr.io/janrepar/fault-catalog-api:dev1.0.1 /mnt/c/Users/janre/source/repos/fault-catalog-api
+      args:
+        chdir: /mnt/c/Users/janre/source/repos/fault-catalog-api
+
+    - name: Push Docker image
+      shell: docker push ghcr.io/janrepar/fault-catalog-api:dev1.0.1

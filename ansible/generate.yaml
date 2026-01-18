@@ -1,0 +1,14 @@
+- name: Generate Dockerfile for Fault Catalog API
+  hosts: localhost       # required
+  gather_facts: false    # optional for local runs
+
+  tasks:
+    - name: Generate Dockerfile from template
+      template:
+        src: templates/Dockerfile
+        dest: /mnt/c/Users/janre/source/repos/fault-catalog-api
+      vars:
+        project_name: "FaultCatalogAPI"
+        configuration: "Release"
+        port: 5000
+        environment: "Development"
